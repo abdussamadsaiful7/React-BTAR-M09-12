@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import Dashboard from './component/Dashboard/Dashboard';
 import Navbar from './component/NavBar/Navbar';
 import PriceList from './component/PriceList/PriceList';
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <PriceList></PriceList>
+      <Dashboard></Dashboard>
      
     </div>
   )

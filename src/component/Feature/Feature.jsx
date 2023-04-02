@@ -1,10 +1,10 @@
 import React from 'react';
 import { CheckCircleIcon } from '@heroicons/react/24/solid'
 
-const Feature = ({feature}) => {
+const Feature = (props) => {
     //console.log(props)
     //console.log(props)
-    //const {feature} = props.feature;
+    const {feature} = props;
     return (
         <div className='text-left flex items-center pb-2'>
              <CheckCircleIcon className="h-6 w-6 text-blue-500" />
