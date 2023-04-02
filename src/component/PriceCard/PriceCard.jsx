@@ -13,7 +13,7 @@ const PriceCard = (props) => {
             <h4 className='text-xl pt-2'>Package: {name}</h4>
             <p>Price: {price} /month</p>
             <p className='text-xl font-semibold underline'>Features: </p>
-            <div className='p-4'>
+            <div className='p-4 mb-4'>
                 {
                     features.map((feature, idx) => <Feature feature={feature} key={idx}></Feature>)
                 }
