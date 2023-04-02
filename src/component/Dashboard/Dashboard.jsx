@@ -103,6 +103,7 @@ const Dashboard = () => {
                 <YAxis />
                 <Tooltip />
             </LineChart>
+            
         </div>
     );
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import Feature from '../Feature/Feature';
 
 
+
 const PriceCard = (props) => {
     //console.log(props)
     const { name, image_url, price, features } = props.price;
