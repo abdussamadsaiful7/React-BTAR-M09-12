@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Basic Membership",
+        "price": 29.99,
+        "features": [
+            "24/7 heart rate monitoring",
+            "Sleep tracking",
+            "Step counting"
+        ],
+        "image_url": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+    },
+
+    {
+        "id": 2,
+        "name": "Corporate Membership",
+        "price": 49.99,
+        "features": [
+            "Bluetooth 5.0 connectivity",
+            "Sweat and water resistance",
+            "Up to 4 hours of playback time"
+        ],
+        "image_url": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+
+    {
+        "id": 3,
+        "name": "Permanent Membership",
+        "price": 99.99,
+        "features": [
+            "Adjustable weight settings from 5-25 pounds",
+            "Durable rubber coating",
+            "Compact storage rack included"
+        ],
+        "image_url": "https://plus.unsplash.com/premium_photo-1661274078120-aa76453212bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    }
+]
