@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const PhoneBar = () => {
-    const [phone, setPhone] =useState([])
+    const [phones, setPhones] =useState([])
     useEffect(()=>{
         // fetch('https://openapi.programming-hero.com/api/phones?search=iphone')
         // .then(res=>res.json())
@@ -22,11 +23,17 @@ const PhoneBar = () => {
                 return phoneInfo;
             })
             console.log(phonesData);
+            setPhones(phonesData);
         })
     },[])
     return (
         <div>
-            
+            <BarChart width={1000} height={500} data={phones}>
+            <Bar dataKey="price" fill="#8884d8" />
+            <XAxis dataKey="name"></XAxis>
+            <YAxis></YAxis>
+            <Tooltip/>
+            </BarChart>
         </div>
     );
 };
